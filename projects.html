@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Sewmahal D.H.P.</title>
+  <meta name="description" content="Explore the projects built by Sewmahal D.H.P. — including an AI healthcare band, grocery system, banking system, and more." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+</head>
+<body>
+
+<!-- ══ NAVBAR ═══════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">S</div>
+      Sewmahal
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html"      class="nav-link">Home</a></li>
+      <li><a href="projects.html"   class="nav-link">Projects</a></li>
+      <li><a href="skills.html"     class="nav-link">Skills</a></li>
+      <li><a href="experience.html" class="nav-link">Experience</a></li>
+      <li><a href="blog.html"       class="nav-link">Blog</a></li>
+      <li><a href="contact.html"    class="nav-link nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══ PAGE HEADER ═══════════════════════════════ -->
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <span>Projects</span>
+    </div>
+    <h1 class="page-header-title">My <span class="gradient-text">Projects</span></h1>
+    <p class="page-header-subtitle">
+      A collection of projects I've worked on — spanning AI, web development, IoT, and desktop applications.
+    </p>
+  </div>
+</header>
+
+<!-- ══ PROJECTS ══════════════════════════════════ -->
+<section class="section">
+  <div class="container">
+    <div class="projects-grid">
+
+      <!-- ─ Project 1: AI Healthcare Band ─ -->
+      <article class="project-card fade-up delay-1" id="proj-health-band">
+        <div class="project-card-top">
+          <span class="project-num">Project 01</span>
+          <span class="project-status"><span class="status-dot"></span>Completed</span>
+        </div>
+        <div class="project-icon">🏥</div>
+        <h2 class="project-title">AI Healthcare Monitoring Band</h2>
+        <p class="project-desc">
+          Developed an AI-powered wearable healthcare monitoring band as part of an Arduino project. 
+          The band uses various sensors to monitor vital health metrics such as heart rate and temperature, 
+          applying AI/ML algorithms for real-time analysis and anomaly detection.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-orange">Arduino</span>
+          <span class="tag tag-purple">AI / ML</span>
+          <span class="tag tag-cyan">IoT Sensors</span>
+          <span class="tag tag-gray">Wearable Tech</span>
+          <span class="tag tag-green">Healthcare</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link pl-ghost" style="cursor:default; flex:1; justify-content:center;">
+            🔒 Private Repository
+          </span>
+        </div>
+      </article>
+
+      <!-- ─ Project 2: Online Grocery System ─ -->
+      <article class="project-card fade-up delay-2" id="proj-grocery">
+        <div class="project-card-top">
+          <span class="project-num">Project 02</span>
+          <span class="project-status"><span class="status-dot"></span>Completed</span>
+        </div>
+        <div class="project-icon">🛒</div>
+        <h2 class="project-title">Online Grocery Management System</h2>
+        <p class="project-desc">
+          A full-featured online grocery shopping and management system that allows users to browse 
+          products, manage their cart, and place orders. The system also includes administrative 
+          features for managing inventory, products, and orders.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">HTML5</span>
+          <span class="tag tag-blue">CSS3</span>
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-gray">Web App</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sewmahal-lk-dev/Grocery-management-system"
+             target="_blank" rel="noopener"
+             class="project-link pl-primary" id="proj-grocery-github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- ─ Project 3: Online Banking System ─ -->
+      <article class="project-card fade-up delay-3" id="proj-banking">
+        <div class="project-card-top">
+          <span class="project-num">Project 03</span>
+          <span class="project-status"><span class="status-dot"></span>Completed</span>
+        </div>
+        <div class="project-icon">🏦</div>
+        <h2 class="project-title">Web-Based Banking System</h2>
+        <p class="project-desc">
+          A comprehensive web-based online banking system developed as a software development 
+          project. Features include account management, transaction processing, balance viewing, 
+          and secure authentication — simulating core banking operations.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">HTML5</span>
+          <span class="tag tag-blue">CSS3</span>
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-purple">Web Banking</span>
+          <span class="tag tag-gray">FinTech</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sewmahal-lk-dev/Web_based_Banking_System"
+             target="_blank" rel="noopener"
+             class="project-link pl-primary" id="proj-banking-github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- ─ Project 4: CineBook Java App ─ -->
+      <article class="project-card fade-up delay-4" id="proj-cinebook">
+        <div class="project-card-top">
+          <span class="project-num">Project 04</span>
+          <span class="project-status"><span class="status-dot"></span>Completed</span>
+        </div>
+        <div class="project-icon">🎬</div>
+        <h2 class="project-title">CineBook Java Application</h2>
+        <p class="project-desc">
+          A desktop cinema ticket booking application built in Java. The app allows users to 
+          browse currently showing movies, select seats, and complete bookings. Demonstrates 
+          strong object-oriented programming principles and Java GUI development.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-orange">Java</span>
+          <span class="tag tag-purple">OOP</span>
+          <span class="tag tag-blue">Desktop App</span>
+          <span class="tag tag-gray">GUI</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sewmahal-lk-dev/cinebook-java-app"
+             target="_blank" rel="noopener"
+             class="project-link pl-primary" id="proj-cinebook-github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            View on GitHub
+          </a>
+        </div>
+      </article>
+
+      <!-- ─ Project 5: Academic Projects ─ -->
+      <article class="project-card fade-up delay-5" id="proj-academic" style="grid-column: 1 / -1; max-width: 700px;">
+        <div class="project-card-top">
+          <span class="project-num">+ More</span>
+          <span class="project-status"><span class="status-dot"></span>Ongoing</span>
+        </div>
+        <div class="project-icon">📚</div>
+        <h2 class="project-title">Academic & Personal Projects</h2>
+        <p class="project-desc">
+          Beyond the highlighted projects, I've worked on various smaller academic and personal projects 
+          throughout my studies at SLIIT. These include programming exercises, algorithm implementations, 
+          data structure projects, and experimental AI/ML prototypes — all contributing to my 
+          growth as a developer and AI enthusiast.
+        </p>
+        <div class="project-tags">
+          <span class="tag tag-blue">Python</span>
+          <span class="tag tag-orange">Java</span>
+          <span class="tag tag-green">JavaScript</span>
+          <span class="tag tag-purple">AI / ML</span>
+          <span class="tag tag-cyan">Arduino</span>
+          <span class="tag tag-gray">Algorithms</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/sewmahal-lk-dev" target="_blank" rel="noopener"
+             class="project-link pl-primary" id="proj-academic-github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            View All on GitHub
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-brand-icon">S</div>
+        <div>
+          <div class="footer-brand-name">Sewmahal D.H.P.</div>
+          <div class="footer-brand-sub">AI Undergraduate · SLIIT</div>
+        </div>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html"      class="footer-nav-link">Home</a>
+        <a href="projects.html"   class="footer-nav-link">Projects</a>
+        <a href="skills.html"     class="footer-nav-link">Skills</a>
+        <a href="experience.html" class="footer-nav-link">Experience</a>
+        <a href="blog.html"       class="footer-nav-link">Blog</a>
+        <a href="contact.html"    class="footer-nav-link">Contact</a>
+      </nav>
+      <div class="footer-socials">
+        <a href="https://github.com/sewmahal-lk-dev" target="_blank" class="footer-social" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/hirusha-pathum-sewmahal-a447923a5" target="_blank" class="footer-social" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Sewmahal D.H.P. All rights reserved.</p>
+      <p class="footer-love">Built with <span class="heart">♥</span> by Sewmahal</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
